@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+#gameCanvas {
+    background-color:black;
+    Border-top: 5px solid silver;
+    border-bottom: 5px solid silver;
+}
