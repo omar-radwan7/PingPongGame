@@ -101,6 +101,7 @@ No setup or server needed — everything runs locally in the browser.
 - Sound effects (bounce, score, win)
 - Score history tracking
 - Difficulty unlocks or progressive levels
+- Exit During the game option
 
 ---
 
@@ -112,4 +113,4 @@ No attribution required, but appreciated. 🚀
 ---
 
 Enjoy the retro pong battle!
-Regards Omar Radwan
+Regards Omar Radwan.
