@@ -299,7 +299,7 @@ function renderMenu() {
     // Controls
     ctx.font = "18px Arial";
     ctx.fillStyle = "#666";
-    ctx.fillText("Use Up & Down arrows to navigate, Enter to select", config.width/2, config.height - 50);
+    ctx.fillText("Use Up & Down arrows to navigate, ESC to pause the game & Enter to select", config.width/2, config.height - 50);
 }
 
 function renderGame() {
@@ -340,7 +340,7 @@ function renderGameOver() {
     ctx.fillStyle = "#fff";
     ctx.font = "bold 48px Arial";
     ctx.textAlign = "center";
-    ctx.fillText(`${state.winner} Wins!`, config.width/2, config.height/2 - 60);
+    ctx.fillText(`${state.winner} Won!`, config.width/2, config.height/2 - 60);
     
     ctx.font = "36px Arial";
     ctx.fillText(`${state.scores.player1} - ${state.scores.player2}`, config.width/2, config.height/2);
